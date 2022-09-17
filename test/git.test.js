@@ -14,7 +14,7 @@ describe("Testing GitCommand.status()", function(){
         
         let git = new GitCommand(wd);
         let output = git.status();
-
+        // hello
         expect(output).to.equal('You have 2 change/s.\nviews/index.html\nassets/scripts/index.js');
     });
 

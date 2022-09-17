@@ -22,9 +22,10 @@ describe("Testing GitCommand.status()", function(){
         let wd = new WorkingDirectory();
         let git = new GitCommand(wd);
         let output = git.status();
-        // added comment too
+
         expect(output).to.equal('You have 0 change/s.\n');
     });
+
 
     it('Simple addition test', function(){
         let x = 5 + 5;

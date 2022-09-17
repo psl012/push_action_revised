@@ -14,7 +14,7 @@ describe("Testing GitCommand.status()", function(){
         
         let git = new GitCommand(wd);
         let output = git.status();
-
+        // hello
         expect(output).to.equal('You have 2 change/s.\nviews/index.html\nassets/scripts/index.js');
     });
 
@@ -25,4 +25,15 @@ describe("Testing GitCommand.status()", function(){
 
         expect(output).to.equal('You have 0 change/s.\n');
     });
+
+    it('Simple addition test', function(){
+        let x = 5 + 5;
+        expect(x).to.equal(10);
+    });
+
+    it('This will fail', function(){
+        expect(3).to.equal(5);
+    });
+
+
 })

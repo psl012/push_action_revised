@@ -35,5 +35,6 @@ describe("Testing GitCommand.status()", function(){
         expect(3).to.equal(5);
     });
 
+    // Just to trigger a push
 
 })

@@ -29,5 +29,6 @@ describe("Testing GitCommand.status()", function(){
     it('Simple addition test', function(){
         let x = 5 + 5;
         expect(x).to.equal(10);
+        // Hello;
     });
 })

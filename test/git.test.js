@@ -25,8 +25,4 @@ describe("Testing GitCommand.status()", function(){
 
         expect(output).to.equal('You have 0 change/s.\n');
     });
-
-    it('This will fail', function(){
-        expect(3).to.equal(5);
-    });
 })

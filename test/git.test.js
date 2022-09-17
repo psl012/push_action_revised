@@ -34,4 +34,6 @@ describe("Testing GitCommand.status()", function(){
     it('This will fail', function(){
         expect(3).to.equal(5);
     });
+
+
 })
